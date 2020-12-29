@@ -2,12 +2,19 @@
 This project allows you to both visualize and analyze share price data of different stocks.
 
 ## Overview
-his project utilizes JP Morgan's Perspective Visualization open source code to generate a chart that displays the data feed in a clear and visually appealing manner for traders to monitor this trading strategy.
+This project utilizes JP Morgan's Perspective Visualization open source code to generate a chart that displays the data feed in a clear and visually appealing manner for traders to monitor this trading strategy.
 Features:
 - Track and display the ratio between the two stock prices.
 - Show the historical upper and lower bounds of the stocks' ratio.
 - Show 'alerts'  whenever these bounds are crossed by the ratio, which a trader can use to determine to sell a stock if it is increasing in price or to buy a stock if the prices are lower than normal.
 - Trigger 'alerts' on the graph whenever the bounds are crossed by the calculated ratio in a specific time period
+
+## System Requirements
+- [Python 3](https://realpython.com/installing-python/) installed
+- [Git](https://www.atlassian.com/git/tutorials/install-git#mac-os-x) installed
+- [NVM](https://github.com/nvm-sh/nvm#install--update-script) Installed
+- Have [Xcode](https://developer.apple.com/xcode/) installed (If Mac User)
+- Have [pip](https://pip.pypa.io/en/stable/installing/#installing-with-get-pip-py) Installed
 
 ## Demo
 Running the server and client scripts in two separate terminals will show an live feed of stock data such as the Name of the stock, and bidding/asking prices.
@@ -52,12 +59,7 @@ If you are using Windows, make sure to run your terminal/command prompt as admin
 - Click on "Start Streaming Data" button on brower to start live data feed. 
 - Can click on three dotted icon on top left of graph to mess around with different features.
 
-## System Requirements
-- [Python 3](https://realpython.com/installing-python/) installed
-- [Git](https://www.atlassian.com/git/tutorials/install-git#mac-os-x) installed
-- [NVM](https://github.com/nvm-sh/nvm#install--update-script) Installed
-- Have [Xcode](https://developer.apple.com/xcode/) installed (If Mac User)
-- Have [pip](https://pip.pypa.io/en/stable/installing/#installing-with-get-pip-py) Installed
+
 
 
 
