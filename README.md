@@ -1,5 +1,5 @@
 # Data Feed Visual of Stocks
-This project allows you to both visualize and analyze share price data of different stocks.
+This project allows you to both visualize and analyze data of different stocks.
 
 ## Overview
 This project utilizes JP Morgan's Perspective Visualization open source code to generate a chart that displays the data feed in a clear and visually appealing manner for traders to monitor this trading strategy.
@@ -22,7 +22,7 @@ Running the server and client scripts in two separate terminals will show an liv
 ![A test image](Graphics/Server-Client.png)
 
 
-Activating the datafeed in the Server will open up JP Morgan Chase's Perspective open source code in a browser for data visualization.
+Activating the datafeed in the Server will open up JP Morgan Chase's Perspective in a browser for data visualization.
 
 ![A test image](Graphics/Server-1.png)
 
@@ -37,13 +37,13 @@ A feature of the live data feed is to change the format that the information is 
 
 
 
-This graph us a more useful tool a trader can use where the feed tracks the RATIO between two stocks over time instead of the stock's asking prices. By manipulating the stock data in this way, upper and lower threshold/bounds are set to help a person determine a treading opportunity. 
+This graph is a more useful tool a trader can use where the data feed tracks the RATIO between two stocks over time instead of the stock's asking prices. By manipulating the stock data this way, upper and lower threshold/bounds are set to help a person look for trading opportunities when the ratios surpass a threshold. 
 
-The red line in the graph that connects the peak ratio and lowest ratio in the graph serves as a trigger alert to the trader that notifies them of when a threshold is passed by the ratio of the two stocks.
+The red line in the graph that connects the peak ratio and lowest ratio in the graph serves as a trigger alert that notifies the trader when a threshold is passed by the ratio of the two stocks.
 
 ![A test image](Graphics/Server-5.png)
 
-You have the option of hovering over the ratio line in the graph to display the timestamp and ratio of that point you choose. 
+You have the option of hovering over the ratio line to display the timestamp and ratio of that point you choose. 
 
 ![A test image](Graphics/Server-6.png)
 
