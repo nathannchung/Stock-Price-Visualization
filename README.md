@@ -1,21 +1,19 @@
 <p align="center">
-<a href="https://www.insidesherpa.com/virtual-internships/prototype/R5iK7HMxJGBgaSbvk/Technology%20Virtual%20Experience" target="_blank">
-<img src="https://insidesherpa-assets.s3-ap-southeast-2.amazonaws.com/icons/jpmorgan/github+repo+images/jpm+gitub+.png"></a>
 </p>
 
 <p align="center"> 
-	<b><a href="#task">Task Overview</a></b>
+	<b><a href="#overview">Task Overview</a></b>
 	|
 	<b><a href="#installation">Installation Instructions</a></b>
 	| 
 	<b><a href="https://www.insidesherpa.com/modules/R5iK7HMxJGBgaSbvk/EbtbrgmwKbgqcXyGt" target="_blank">Link to Module 3</a></b>	
 </p>
 
-<h1> Introduction</h1> 
+<h1> Data Feed Visual of Stocks </h1> 
 <b> Experience Technology at JP Morgan Chase </b>
-<p>Try out what real work is like in the technology team at JP Morgan Chase & Co. Fast track to the tech team with your work.</p>
+<p> This project allows you to both visualize and analyze share price data of different stocks. </p>
 
-<h2 id="task"> Module 3 Task Overview </h2>
+<h2 id="overview"> Overview </h2>
 Display data visually for traders.
 Use Perspective to create the chart for the trader’s dashboard.
 
@@ -68,5 +66,3 @@ Note: You may need to (hard) refresh the link to the public gdrive to see all of
 <h2>How to fix the code to meet the objectives</h2>
 <p>To make the changes necessary to complete the objectives of this task, <a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/making_changes_m3_v2.pdf">follow this guide</a>.</p>
 
-<h2>How to submit your work</h2>
-<p>A patch file is what is required from you to submit. To create a patch file, <a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/create_patch_file_v3a.pdf">follow this guide</a>. Then submit the patch file in the <a href="https://www.insidesherpa.com/modules/R5iK7HMxJGBgaSbvk/EbtbrgmwKbgqcXyGt">JPM Module 3 Page</a>.</p>
