@@ -1,6 +1,9 @@
 <p align="center">
 </p>
 
+<h1> Data Feed Visual of Stocks </h1> 
+<b> This project allows you to both visualize and analyze share price data of different stocks. </b>
+
 <p align="center"> 
 	<b><a href="#overview">Task Overview</a></b>
 	|
@@ -9,22 +12,20 @@
 	<b><a href="https://www.insidesherpa.com/modules/R5iK7HMxJGBgaSbvk/EbtbrgmwKbgqcXyGt" target="_blank">Link to Module 3</a></b>	
 </p>
 
-<h1> Data Feed Visual of Stocks </h1> 
-<b> Experience Technology at JP Morgan Chase </b>
-<p> This project allows you to both visualize and analyze share price data of different stocks. </p>
-
 <h2 id="overview"> Overview </h2>
-Display data visually for traders.
+Displays data visually for traders.
 Use Perspective to create the chart for the trader’s dashboard.
 
-<b>Aim:</b> Use Perspective to generate a chart that displays the data feed in a clear and visually appealing manner for traders to monitor this trading strategy. Basically, you have to modify the existing live chart to be able to (1) track and display the ratio between the two stock prices (2) show the historical upper and lower bounds of the stocks' ratio (3) and finally, show 'alerts'  whenever these bounds are crossed by the ratio.
+<b>Aim:</b> This project utilizes JP Morgan's Perspective Visualization open source code to generate a chart that displays the data feed in a clear and visually appealing manner for traders to monitor this trading strategy. Basically, you have to modify the existing live chart to be able to (1) 
+
+<p> Features: </p>
+track and display the ratio between the two stock prices (2) show the historical upper and lower bounds of the stocks' ratio (3) and finally, show 'alerts'  whenever these bounds are crossed by the ratio.
 
 <ol>
-	<li>Please clone this repository to start the task</li>
-	<li>From the existing live graph, update it to track the ratio between two stocks over time and NOT the two stocks’ top_ask_price over time.</li>
-	<li>Update the graph to also track the historical upper and lower bounds of the stocks' ratio</li>
-	<li>Trigger 'alerts' (i.e. draw red lines) on the graph whenever the bounds are crossed by the calculated ratio in a specific time period</li>
-	<li>Upload a git patch file as the submission to this task</li>	
+	<li> Track and display the ratio between the two stock prices. </li>
+	<li> Show the historical upper and lower bounds of the stocks' ratio.</li>
+	<li> Show 'alerts'  whenever these bounds are crossed by the ratio, which a trader can use to determine to sell a stock if it is increasing in price or to buy a stock if the prices are lower than normal. </li>
+	<li>Trigger 'alerts' on the graph whenever the bounds are crossed by the calculated ratio in a specific time period</li>
   	<li>Upload a video detailing your process and work</li>
 </ol>
 
