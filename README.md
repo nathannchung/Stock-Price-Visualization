@@ -28,7 +28,7 @@
 </ol>
 
 <h2 id="Demo" > Program Demo </h2>
-<a href="Stock-Price-Visualization/Graphics/Server:Client.pdf">
+<a href="https://github.com/nathannchung/Stock-Price-Visualization/Graphics/Server:Client.pdf">
 
 
 
