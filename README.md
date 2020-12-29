@@ -19,15 +19,26 @@ Activating the datafeed in the Server will open up JP Morgan Chase's Perspective
 
 ![A test image](Graphics/Server-1.png)
 
-The image below begins the data feed and will start to show the price fluctuations of two different stocks, one being the orange line and the other being the blue line.
+Once you being to Start Streaming Data, the data feed will start to show the price fluctuations of two different stocks, one stock being the orange line and the other stock being the blue line. This provides the trader with visuals that will allow him/her to compare and correlate competing stocks.
 
 ![A test image](Graphics/Server-2.png)
 
-A feature of the live data feed is to change the format the information is displayed via a Bar Chart, Line Chart, Scatter Chart, etc as shown below. 
+A feature of the live data feed is to change the format that the information is displayed as. Options include a Bar Chart, Line Chart, Scatter Chart, and more as shown below. 
 
 ![A test image](Graphics/Server-3.png)
-
 ![A test image](Graphics/Server-4.png)
+
+
+
+This graph us a more useful tool a trader can use where the feed tracks the RATIO between two stocks over time instead of the stock's asking prices. By manipulating the stock data in this way, upper and lower threshold/bounds are set to help a person determine a treading opportunity. 
+
+The red line in the graph that connects the peak ratio and lowest ratio in the graph serves as a trigger alert to the trader that notifies them of when a threshold is passed by the ratio of the two stocks.
+
+![A test image](Graphics/Server-5.png)
+
+You have the option of hovering over the ratio line in the graph to display the timestamp and ratio of that point you choose. 
+![A test image](Graphics/Server-6.png)
+
 
 
 ## Installation
