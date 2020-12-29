@@ -7,13 +7,14 @@
 <p align="center"> 
 	<b><a href="#overview">Task Overview</a></b>
 	|
+	<b><a href="#Demo">Demo of Program</a></b>
+	| 
 	<b><a href="#installation">Installation Instructions</a></b>
 	| 
 	<b><a href="https://www.insidesherpa.com/modules/R5iK7HMxJGBgaSbvk/EbtbrgmwKbgqcXyGt" target="_blank">Link to Module 3</a></b>	
 </p>
 
 <h2 id="overview"> Overview </h2>
-Displays data visually for traders.
 
 <p> This project utilizes JP Morgan's Perspective Visualization open source code to generate a chart that displays the data feed in a clear and visually appealing manner for traders to monitor this trading strategy. </p>
 
@@ -25,6 +26,9 @@ Displays data visually for traders.
 	<li>Trigger 'alerts' on the graph whenever the bounds are crossed by the calculated ratio in a specific time period</li>
 	
 </ol>
+
+<h2 id="Demo" > Program Demo </h2>
+<a href="Server:Client.pdf" style="color: white;">
 
 <h2 id="installation" >Setup / Installation</h2>
 <p>In order to get the server and client application code working on your machine, <a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/setup_devenv_m3_v3.pdf">follow the setup here</a></p>
