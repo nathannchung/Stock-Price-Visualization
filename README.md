@@ -37,21 +37,27 @@ The red line in the graph that connects the peak ratio and lowest ratio in the g
 ![A test image](Graphics/Server-5.png)
 
 You have the option of hovering over the ratio line in the graph to display the timestamp and ratio of that point you choose. 
+
 ![A test image](Graphics/Server-6.png)
 
 
-
-## Installation
-In order to get the server and client application code working on your machine, [follow the setup here]("https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/setup_devenv_m3_v3.pdf").
-
-**Note:** This is the version of the JPM 3 exercise that uses Python 3. The Python 2.7 version is in [this other repo]("https://github.com/insidesherpa/JPMC-tech-task-3").
-
 ## How to Run
-Similar to Task 2, start the data feed server by running the python server.
-
-Make sure your terminal / command line is in the repository first before doing any of this.
-
+- Clone this repository via command: "git clone https://github.com/insidesherpa/JPMC-tech-task-1-py3.git" 
+- Go into the directory that all the files are in.
+- Run the command: "python3 datafeed/server3.py"
+- If done right, should show ![A test image](Graphics/Right.png)
+- In a separate terminal, run "npm install" && "npm start" to start the React application
+- Open http://localhost:3000 to view the app in the browser. The page will reload if you make edits.
 If you are using Windows, make sure to run your terminal/command prompt as administrator.
+- Click on "Start Streaming Data" button on brower to start live data feed. 
+- Can click on three dotted icon on top left of graph to mess around with different features.
+
+## System Requirements
+- [Python 3]("https://realpython.com/installing-python/") installed
+- [Git]("https://www.atlassian.com/git/tutorials/install-git#mac-os-x") installed
+- [NVM]("https://github.com/nvm-sh/nvm#install--update-script") Installed
+- Have [Xcode]("https://developer.apple.com/xcode/") installed (If Mac User)
+- Have [pip]("https://pip.pypa.io/en/stable/installing/#installing-with-get-pip-py") Installed
 
 
 
@@ -59,38 +65,4 @@ If you are using Windows, make sure to run your terminal/command prompt as admin
 
 
 
-
-
-
-
-
-
-
-<code>python datafeed/server3.py</code>
-
-If you encounter an issue with `datautil.parser`, run this command: 
-
-	pip install python-dateutil
-
-If you don't have pip, you can install it from: https://pip.pypa.io/en/stable/installing/
-
-Run <code>npm install && npm start</code> to start the React application.
-
-It's okay to have audit warnings when installing/running the app.
-
-If you don't have `npm` (although you should if you followed the set up / installation part), you can install the recommended version alongside NodeJS from: https://nodejs.org/en/
-
-The recommended version are node v11.0.0 and npm v6.4.1
-
-Open http://localhost:3000 to view the app in the browser. The page will reload if you make edits.
-
-<h2>Known Issues</h2>
-Some users seem to be having trouble with the unzipped version of the node_modules back up for windows. 
-This is the alternative unzipped version:
-https://drive.google.com/drive/folders/1wzIlt-OeiK6nYEHidsOGlpJ_KmeoPVXz
-
-Note: You may need to (hard) refresh the link to the public gdrive to see all of the files/folders e.g. @jpmorganchase/perspective as it takes gdrive a bit to load them for you.
-
-<h2>How to fix the code to meet the objectives</h2>
-<p>To make the changes necessary to complete the objectives of this task, <a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/making_changes_m3_v2.pdf">follow this guide</a>.</p>
 
