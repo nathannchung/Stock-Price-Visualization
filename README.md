@@ -28,7 +28,11 @@
 </ol>
 
 <h2 id="Demo" > Program Demo </h2>
-<a href="Graphics/Server:Client.pdf">
+<a href="Stock-Price-Visualization/Graphics/Server:Client.pdf">
+
+
+
+
 
 <h2 id="installation" >Setup / Installation</h2>
 <p>In order to get the server and client application code working on your machine, <a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/setup_devenv_m3_v3.pdf">follow the setup here</a></p>
