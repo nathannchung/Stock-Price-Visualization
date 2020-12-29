@@ -10,7 +10,25 @@ Features:
 - Trigger 'alerts' on the graph whenever the bounds are crossed by the calculated ratio in a specific time period
 
 ## Demo
+Running the server and client scripts in two separate terminals will show an live feed of stock data such as the Name of the stock, and bidding/asking prices.
+
 ![A test image](Graphics/Server-Client.png)
+
+
+Activating the datafeed in the Server will open up JP Morgan Chase's Perspective open source code in a browser for data visualization.
+
+![A test image](Graphics/Server-1.png)
+
+The image below begins the data feed and will start to show the price fluctuations of two different stocks, one being the orange line and the other being the blue line.
+
+![A test image](Graphics/Server-2.png)
+
+A feature of the live data feed is to change the format the information is displayed via a Bar Chart, Line Chart, Scatter Chart, etc as shown below. 
+
+![A test image](Graphics/Server-3.png)
+
+![A test image](Graphics/Server-4.png)
+
 
 ## Installation
 In order to get the server and client application code working on your machine, [follow the setup here]("https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/setup_devenv_m3_v3.pdf").
