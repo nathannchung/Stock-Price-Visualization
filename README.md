@@ -14,19 +14,16 @@
 
 <h2 id="overview"> Overview </h2>
 Displays data visually for traders.
-Use Perspective to create the chart for the trader’s dashboard.
 
-<b>Aim:</b> This project utilizes JP Morgan's Perspective Visualization open source code to generate a chart that displays the data feed in a clear and visually appealing manner for traders to monitor this trading strategy. Basically, you have to modify the existing live chart to be able to (1) 
+<p> This project utilizes JP Morgan's Perspective Visualization open source code to generate a chart that displays the data feed in a clear and visually appealing manner for traders to monitor this trading strategy. </p>
 
 <p> Features: </p>
-track and display the ratio between the two stock prices (2) show the historical upper and lower bounds of the stocks' ratio (3) and finally, show 'alerts'  whenever these bounds are crossed by the ratio.
-
 <ol>
 	<li> Track and display the ratio between the two stock prices. </li>
 	<li> Show the historical upper and lower bounds of the stocks' ratio.</li>
 	<li> Show 'alerts'  whenever these bounds are crossed by the ratio, which a trader can use to determine to sell a stock if it is increasing in price or to buy a stock if the prices are lower than normal. </li>
 	<li>Trigger 'alerts' on the graph whenever the bounds are crossed by the calculated ratio in a specific time period</li>
-  	<li>Upload a video detailing your process and work</li>
+	
 </ol>
 
 <h2 id="installation" >Setup / Installation</h2>
