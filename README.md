@@ -3,7 +3,7 @@
 
 <h1> Data Feed Visual of Stocks </h1> 
 <b> This project allows you to both visualize and analyze share price data of different stocks. </b>
-
+</p>
 <p align="center"> 
 	<b><a href="#overview">Task Overview</a></b>
 	|
