@@ -1,48 +1,41 @@
-<p align="center">
-</p>
+# Data Feed Visual of Stocks
+This project allows you to both visualize and analyze share price data of different stocks.
 
-<h1> Data Feed Visual of Stocks </h1> 
-<b> This project allows you to both visualize and analyze share price data of different stocks. </b>
-</p>
-<p align="center"> 
-	<b><a href="#overview">Task Overview</a></b>
-	|
-	<b><a href="#Demo">Demo of Program</a></b>
-	| 
-	<b><a href="#installation">Installation Instructions</a></b>
-	| 
-	<b><a href="https://www.insidesherpa.com/modules/R5iK7HMxJGBgaSbvk/EbtbrgmwKbgqcXyGt" target="_blank">Link to Module 3</a></b>	
-</p>
+## Overview
+his project utilizes JP Morgan's Perspective Visualization open source code to generate a chart that displays the data feed in a clear and visually appealing manner for traders to monitor this trading strategy.
+Features:
+- Track and display the ratio between the two stock prices.
+- Show the historical upper and lower bounds of the stocks' ratio.
+- Show 'alerts'  whenever these bounds are crossed by the ratio, which a trader can use to determine to sell a stock if it is increasing in price or to buy a stock if the prices are lower than normal.
+- Trigger 'alerts' on the graph whenever the bounds are crossed by the calculated ratio in a specific time period
 
-<h2 id="overview"> Overview </h2>
+## Demo
+![A test image](Graphics/Server-Client.png)
 
-<p> This project utilizes JP Morgan's Perspective Visualization open source code to generate a chart that displays the data feed in a clear and visually appealing manner for traders to monitor this trading strategy. </p>
+## Installation
+In order to get the server and client application code working on your machine, [follow the setup here]("https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/setup_devenv_m3_v3.pdf").
 
-<p> Features: </p>
-<ol>
-	<li> Track and display the ratio between the two stock prices. </li>
-	<li> Show the historical upper and lower bounds of the stocks' ratio.</li>
-	<li> Show 'alerts'  whenever these bounds are crossed by the ratio, which a trader can use to determine to sell a stock if it is increasing in price or to buy a stock if the prices are lower than normal. </li>
-	<li>Trigger 'alerts' on the graph whenever the bounds are crossed by the calculated ratio in a specific time period</li>
-	
-</ol>
+**Note:** This is the version of the JPM 3 exercise that uses Python 3. The Python 2.7 version is in [this other repo]("https://github.com/insidesherpa/JPMC-tech-task-3").
 
-<h2 id="Demo" > Program Demo </h2>
-<a href= "Server/Client.pdf" >
+## How to Run
+Similar to Task 2, start the data feed server by running the python server.
+
+Make sure your terminal / command line is in the repository first before doing any of this.
+
+If you are using Windows, make sure to run your terminal/command prompt as administrator.
 
 
 
 
 
-<h2 id="installation" >Setup / Installation</h2>
-<p>In order to get the server and client application code working on your machine, <a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/setup_devenv_m3_v3.pdf">follow the setup here</a></p>
 
-<p><b>Note</b>:This is the version of the JPM 3 exercise that uses Python 3. The Python 2.7 version is in <a href="https://github.com/insidesherpa/JPMC-tech-task-3">this other repo</a></p>
 
-<h2>How to Run</h2>
-<p>Similar to Task 2, start the data feed server by running the python server</p>
-<p>Make sure your terminal / command line is in the repository first before doing any of this.</p>
-<p>If you are using Windows, make sure to run your terminal/command prompt as administrator.</p>
+
+
+
+
+
+
 
 <code>python datafeed/server3.py</code>
 
