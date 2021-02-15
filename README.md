@@ -2,7 +2,7 @@
 This project allows you to both visualize and analyze data of different stocks.
 
 ## Overview
-This project utilizes JP Morgan's Perspective Visualization open source code to generate a chart that displays the data feed in a clear and visually appealing manner for traders to monitor this trading strategy.
+This project utilizes JP Morgan's Perspective Visualization open source code to generate a chart that displays the data feed in a clear and visually appealing manner for traders to monitor stock metrics.
 Features:
 - Track and display the ratio between the two stock prices.
 - Show the historical upper and lower bounds of the stocks' ratio.
